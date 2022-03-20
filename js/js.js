@@ -15,6 +15,7 @@ $(document).ready(function(){
         $(".maintextone").removeClass("visible");
         $(".maintexttwo").removeClass("visible");
         $(".mainArrow").removeClass("visible");
+        $(".video-main").removeClass("visible");
         $(".timeline").removeClass("none");
         $(".texttimeline").removeClass("none");
     });
