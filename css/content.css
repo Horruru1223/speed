@@ -170,7 +170,7 @@ body{
  .rectangle1{
   width: 10.15%;
   top: 3.2%;
-  left: 0%;
+  left: 6%;
   z-index: 3;
   position: absolute;
   /* display: none; */
@@ -179,7 +179,7 @@ body{
 .rectangle1{
   width: 10.05%;
   top: 3.2%;
-  left: 6.265%;
+  left: 0%;
   z-index: 3;
   position: absolute;
   /* display: none; */
