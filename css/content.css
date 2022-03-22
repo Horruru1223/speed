@@ -176,26 +176,18 @@ body{
   /* display: none; */
 }
 
-.rectangle1{
-  width: 10.05%;
-  top: 3.2%;
-  left: 0%;
-  z-index: 3;
-  position: absolute;
-  /* display: none; */
-}
 
 .rectangle2{
   width: 10%;
   top: 3.2%;
-  left: 31.59%;
+  left: 31.5%;
   z-index: 3;
   position: absolute;
   /* display: none; */
 }
 
 .rectangle3{
-  width: 10%;
+  width: 10.15%;
   top: 3.2%;
   left: 57.1%;
   z-index: 3;
@@ -204,9 +196,9 @@ body{
 }
 
 .rectangle4{
-  width: 10%;
+  width: 10.15%;
   top: 3.2%;
-  left: 76.1%;
+  left: 76.3%;
   z-index: 4;
   position: absolute;
   /* display: none; */
