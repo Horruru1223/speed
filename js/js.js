@@ -24,17 +24,18 @@ $(document).ready(function(){
 $(document).ready(function() {
   $('.rectangle1').click(function(){
       $('.section4').removeClass("none")
+      $('.texttimelinetwo').removeClass("none")
       $('.section5').addClass("none")
       $('.section6').addClass("none")
       $('.section7').addСlass("none")
       $(".texttimeline").addClass("none");
-
   });
 });
 
 $(document).ready(function() {
-  $('.rectangle2').click(function(){
+   $('.rectangle2').click(function(){
       $('.section5').removeClass("none")
+      $('.texttimelinetwo').removeClass("none")
       $('.section4').addClass("none")
       $('.section6').addClass("none")
       $('.section7').addClass("none")
@@ -45,6 +46,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('.rectangle3').click(function(){
       $('.section6').removeClass("none")
+      $('.texttimelinetwo').removeClass("none")
       $('.section5').addClass("none")
       $('.section4').addClass("none")
       $('.section7').addClass("none")
@@ -55,6 +57,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('.rectangle4').click(function(){
       $('.section7').removeClass("none")
+      $('.texttimelinetwo').removeClass("none")
       $('.section5').addClass("none")
       $('.section6').addClass("none")
       $('.section4').addClass("none")
