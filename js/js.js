@@ -1,12 +1,34 @@
+// $(window).load ( function() {
+//
+//   $(document) .mousemove( function(e) {
+//     let x = e.pageX;
+//     let y = e.pageY;
+//
+//     $('#light').css('margin-left' , x);
+//     $('#light').css( 'margin-top' , y);
+//
+//   });
+// });
+
+
+
+
 $(document).ready(function() {
-  $('logo').click(function(){
-      $('.mainscreen').addClass("visible")
-      $('.section4').addClass("none")
-      $('.section5').addClass("none")
-      $('.section6').addClass("none")
-      $('.section7').addСlass("none")
-      $(".texttimeline").addClass("none");
-      $(".timeline").addClass("none");
+  $(".logo").click(function(){
+    $('.mainscreen').addClass("visible");
+    $('.mainArrow').addClass("visible");
+    $('.video-main').addClass("visible");
+    $('.maintexttwo').addClass("visible");
+    $('.maintextone').addClass("visible");
+    $('.hse').css("display", "block");
+    $('.section4').addClass("none");
+    $('.section5').addClass("none");
+    $('.section6').addClass("none");
+    $(".section7").addClass("none");
+    $(".texttimeline").addClass("none");
+    $(".timeline").addClass("none");
+
+
    });
   });
 
@@ -23,8 +45,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function() {
-  $('.rectangle1').click(function(){
-      $('.section4').toggleClass("none");
+  $('.stroke1').click(function(){
+      $('.section4').removeClass("none");
       $('.texttimeline').addClass("none")
       $('.texttimelinetwo').removeClass("none")
       $('.section5').addClass("none")
@@ -35,8 +57,8 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-   $('.rectangle2').click(function(){
-      $('.section5').toggleClass("none")
+   $('.stroke2').click(function(){
+      $('.section5').removeClass("none")
       $('.texttimelinetwo').removeClass("none")
       $('.section4').addClass("none")
       $('.section6').addClass("none")
@@ -46,8 +68,8 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $('.rectangle3').click(function(){
-      $('.section6').toggleClass("none")
+  $('.stroke3').click(function(){
+      $('.section6').removeClass("none")
       $('.texttimelinetwo').removeClass("none")
       $('.section5').addClass("none")
       $('.section4').addClass("none")
@@ -57,8 +79,8 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $('.rectangle4').click(function(){
-      $('.section7').toggleClass("none")
+  $('.stroke4').click(function(){
+      $('.section7').removeClass("none")
       $('.texttimelinetwo').removeClass("none")
       $('.section4').addClass("none")
       $('.section5').addClass("none")
@@ -72,11 +94,19 @@ $(document).ready(function() {
   $('.umbrella').click(function(){
     $('.video-bg').css("display", "block");
     $('.umbrella').css("filter", "grayscale(0%)");
+    $('.textumbrella').css("display", "block");
+    $('.textumbrellaNumber').css("display", "block");
+    $('.textumbrellamonth').css("display", "block");
     $('.sea').css("display", "none");
     $(".ticket").css("filter", "grayscale(100%)");
     $(".texttimelinetwo").addClass("none");
     $(".texttimeline").addClass("none");
-
+    $('.textpomegrante').css("display", "none");
+    $('.textpomegranteNumber').css("display", "none");
+    $('.textpomegrantemonth').css("display", "none");
+    $('.textticket').css("display", "none");
+    $('.textticketNumber').css("display", "none");
+    $('.textticketmonth').css("display", "none");
   });
 });
 
@@ -84,11 +114,40 @@ $(document).ready(function() {
   $('.ticket').click(function(){
     $('.sea').css("display", "block");
     $(".ticket").css("filter", "grayscale(0%)");
+    $('.textticket').css("display", "block");
+    $('.textticketNumber').css("display", "block");
+    $('.textticketmonth').css("display", "block");
     $('.video-bg').css("display", "none");
     $('.umbrella').css("filter", "grayscale(100%)");
     $(".texttimelinetwo").addClass("none");
     $(".texttimeline").addClass("none");
+    $('.textumbrella').css("display", "none");
+    $('.textumbrellaNumber').css("display", "none");
+    $('.textumbrellamonth').css("display", "none");
+    $('.textpomegrante').css("display", "none");
+    $('.textpomegranteNumber').css("display", "none");
+    $('.textpomegrantemonth').css("display", "none");
+  });
+});
 
+$(document).ready(function() {
+  $('.pomegrante').click(function(){
+    $('.sea').css("display", "none");
+    $(".pomegrante").css("filter", "grayscale(0%)");
+    $('.textpomegrante').css("display", "block");
+    $('.textpomegranteNumber').css("display", "block");
+    $('.textpomegrantemonth').css("display", "block");
+    $('.video-bg').css("display", "none");
+    $('.umbrella').css("filter", "grayscale(100%)");
+    $('.ticket').css("filter", "grayscale(100%)");
+    $(".texttimelinetwo").addClass("none");
+    $(".texttimeline").addClass("none");
+    $('.textumbrella').css("display", "none");
+    $('.textumbrellaNumber').css("display", "none");
+    $('.textumbrellamonth').css("display", "none");
+    $('.textticket').css("display", "none");
+    $('.textticketNumber').css("display", "none");
+    $('.textticketmonth').css("display", "none");
   });
 });
 
@@ -135,18 +194,8 @@ $(document).ready(function() {
     $('.textWatermelon').css("display", "block");
     $('.pancakes').css("filter", "grayscale(100%)");
     $(".sketch").css("filter", "grayscale(100%)");
-    $('.fire1').css("display", "none");
-    $('.fire2').css("display", "none");
-    $('.fire3').css("display", "none");
-    $('.fire4').css("display", "none");
-    $('.fire5').css("display", "none");
-    $('.fire6').css("display", "none");
-    $('.candle1').css("display", "none");
-    $('.candle2').css("display", "none");
-    $('.candle3').css("display", "none");
-    $('.candle4').css("display", "none");
-    $('.candle5').css("display", "none");
-    $('.candle6').css("display", "none");
+    $('.fog').addClass("none")
+    $('.candle').addClass("none")
     $(".sketch").css("filter", "grayscale(100%)");
     $(".texttimelinetwo").addClass("none");
     $(".texttimeline").addClass("none");
@@ -169,18 +218,8 @@ $(document).ready(function() {
     $('.textPancake').css("display", "block");
     $('.textPancakesNumber').css("display", "block");
     $('.textPancakesmonth').css("display", "block");
-    $('.fire1').css("display", "none");
-    $('.fire2').css("display", "none");
-    $('.fire3').css("display", "none");
-    $('.fire4').css("display", "none");
-    $('.fire5').css("display", "none");
-    $('.fire6').css("display", "none");
-    $('.candle1').css("display", "none");
-    $('.candle2').css("display", "none");
-    $('.candle3').css("display", "none");
-    $('.candle4').css("display", "none");
-    $('.candle5').css("display", "none");
-    $('.candle6').css("display", "none");
+    $('.fog').addClass("none")
+    $('.candle').addClass("none")
     $(".sketch").css("filter", "grayscale(100%)");
     $('.textWatermelonNumber').css("display", "none");
     $('.textWatermelonmonth').css("display", "none");
@@ -190,8 +229,6 @@ $(document).ready(function() {
     $('.textsketchNumber').css("display", "none");
     $('.textsketchmonth').css("display", "none");
     $('.textsketch').css("display", "none");
-
-
   });
 });
 
@@ -268,18 +305,8 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('.sketch').click(function(){
-    $('.fire1').css("display", "block");
-    $('.fire2').css("display", "block");
-    $('.fire3').css("display", "block");
-    $('.fire4').css("display", "block");
-    $('.fire5').css("display", "block");
-    $('.fire6').css("display", "block");
-    $('.candle1').css("display", "block");
-    $('.candle2').css("display", "block");
-    $('.candle3').css("display", "block");
-    $('.candle4').css("display", "block");
-    $('.candle5').css("display", "block");
-    $('.candle6').css("display", "block");
+    $('.fog').removeClass("none")
+    $('.candle').removeClass("none")
     $('.textsketchNumber').css("display", "block");
     $('.textsketchmonth').css("display", "block");
     $('.textsketch').css("display", "block");
@@ -298,3 +325,78 @@ $(document).ready(function() {
     $('.textPancakesmonth').css("display", "none");
   });
 });
+
+$(document).ready(function() {
+  $('.fog1').click(function(){
+    $('.fire1').css("display", "block");
+    $('.fog1').css("opacity","0%");
+  });
+  });
+
+$(document).ready(function() {
+  $('.fog5').click(function(){
+      $('.fire5').css("display", "block");
+      $('.fog5').css("opacity","0%");
+   });
+  });
+
+    $(document).ready(function() {
+      $('.fog2').click(function(){
+          $('.fire2').css("display", "block");
+          $('.fog2').css("opacity","0%");
+       });
+      });
+
+      $(document).ready(function() {
+        $('.fog4').click(function(){
+            $('.fire4').css("display", "block");
+            $('.fog4').css("opacity","0%");
+         });
+        });
+
+        $(document).ready(function() {
+          $('.fog6').click(function(){
+              $('.fire6').css("display", "block");
+              $('.fog6').css("opacity","0%");
+           });
+          });
+
+          $(document).ready(function() {
+            $('.fog3').click(function(){
+                $('.fire3').css("display", "block");
+                $('.fog3').css("opacity","0%");
+             });
+            });
+
+            // window.addEventListener('load', function () {
+            // var O = document.getElementById('obj'),
+            // X = 0,
+            // Y = 0,mouseX=0,mouseY=0;
+            // window.addEventListener('mousemove', function (ev) {
+            //       ev = window.event || ev;
+            // X=ev.pageX;
+            // Y=ev.pageY;
+            // });
+            //
+            //   function move() {
+            //       var p = 'px';
+            //       console.log(X,Y);
+            //       O.style.left = X + p;
+            //       O.style.top = Y +  p;
+            //
+            //       setTimeout(move, 150);
+            //   }
+            //   move();
+            //
+            // });
+
+// $(window).load (function () {
+//   $(document).mousemove(function (e) {
+//     var x = e.pageX;
+//     var y = e.pageY;
+//
+//     $(".light").css("margin-left", x);
+//     $(".light").css("margin-top", x);
+//
+//   });
+// });
