@@ -1,7 +1,8 @@
-<svg width="541" height="636" viewBox="0 0 541 636" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="540" height="636" viewBox="0 0 540 636" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="540" height="636" fill="white"/>
 <rect x="1" y="1" width="538" height="634" fill="#F0ECDA" stroke="black" stroke-width="2"/>
-<line x1="1" y1="128" x2="541" y2="128" stroke="black" stroke-width="2"/>
-<circle cx="147.5" cy="68.5" r="21.5" stroke="black" stroke-width="2"/>
-<circle cx="385.5" cy="68.5" r="21.5" stroke="black" stroke-width="2"/>
-<line x1="168" y1="68" x2="363" y2="68" stroke="black" stroke-width="2"/>
+<line y1="128" x2="540" y2="128" stroke="black" stroke-width="2"/>
+<circle cx="151.5" cy="63.5" r="21.5" stroke="black" stroke-width="2"/>
+<circle cx="389.5" cy="63.5" r="21.5" stroke="black" stroke-width="2"/>
+<line x1="174" y1="62" x2="368" y2="62" stroke="black" stroke-width="2"/>
 </svg>
