@@ -229,6 +229,7 @@ body{
   top: 50%;
   left: 39.4%;
   position: absolute;
+
 }
 
 .texttimelinetwo{
@@ -339,6 +340,7 @@ body{
 }
 
 .two{
+  z-index: 7;
   top: 40%;
   left: 70%;
   width: 18%;
@@ -444,6 +446,13 @@ body{
    position: absolute;
    display: none;
  }
+
+.lake{
+  top: -10%;
+  width: 100%;
+  z-index: -110;
+  position: absolute;
+}
 
  .video-lake {
      position: fixed;
@@ -695,23 +704,23 @@ body{
 .textKittyNumber{
   z-index: 110;
   top: 38%;
-  left: 40%;
+  left: 41.7%;
   display: none;
   position: absolute;
 }
 
 .textKittymonth{
   z-index: 110;
-  top: 79%;
-  left: 22%;
+  top: 88%;
+  left: 14.3%;
   display: none;
   position: absolute;
 }
 
 .textKitty{
   z-index: 111;
-  top: 68%;
-  left: 36.8%;
+  top: 70%;
+  left: 38.8%;
   display: none;
   font-size: 1.2vw;
   position: absolute;
@@ -735,12 +744,63 @@ body{
 
 .textTights{
   z-index: 111;
-  top: 68%;
-  left: 36.8%;
+  top: 70%;
+  left: 35.3%;
   display: none;
   font-size: 1.2vw;
   position: absolute;
 }
+
+.textLadybugNumber{
+  z-index: 110;
+  top: 38%;
+  left: 40.5%;
+  display: none;
+  position: absolute;
+}
+
+.textLadybugmonth{
+  z-index: 110;
+  top: 88%;
+  left: 18.3%;
+  display: none;
+  position: absolute;
+}
+
+.textLadybug{
+  z-index: 111;
+  top: 70%;
+  left: 35.3%;
+  display: none;
+  font-size: 1.2vw;
+  position: absolute;
+}
+
+.textWatermelonNumber{
+  z-index: 110;
+  top: 38%;
+  left: 44%;
+  display: none;
+  position: absolute;
+}
+
+.textWatermelonmonth{
+  z-index: 110;
+  top: 88%;
+  left: -6%;
+  display: none;
+  position: absolute;
+}
+
+.textWatermelon{
+  z-index: 111;
+  top: 70%;
+  left: 35.3%;
+  display: none;
+  font-size: 1.2vw;
+  position: absolute;
+}
+
 
  /* .section4{
    display: none;
@@ -757,6 +817,10 @@ body{
 .section7{
   display: none;
 } */
+
+.none{
+  display: none;
+}
 
 .visible{
   display: block;
