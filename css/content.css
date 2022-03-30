@@ -49,13 +49,49 @@ font-size: 2vw;
  }
 
 
-.mainArrow{
-  width: 93%;
+/* .mainArrow{
+  width: 100%;
   z-index: 999;
   top: 60%;
-  left: -1%;
+  left: -10%;
   position: absolute;
   display: none;
+} */
+
+.mainArrow {
+  animation: 2.7s linear 0s normal none infinite running mainArrow;
+  -webkit-animation: 2.7s linear 0s normal none infinite running mainArrow;
+  width: 100%;
+  z-index: 999;
+  top: 60%;
+  left: -10%;
+  position: absolute;
+  display: none;
+  cursor: pointer;
+
+}
+
+@keyframes mainArrow {
+  0% {
+    transform: translateX(-10%);
+  }
+  50% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
+}
+@-webkit-keyframes mainArrow {
+  0% {
+    transform: translateX(-10%);
+  }
+  50% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
 }
 
 .maintextone{
@@ -86,14 +122,28 @@ font-size: 2vw;
   position: absolute;
 }
 
+.stroke1{
+  width: 10.4%;
+      top: 3.2%;
+      left: 5.5%;
+ z-index: 4;
+ position: absolute;
+ cursor: pointer;
+ opacity: 0%;
+}
+
+.stroke1:hover{
+opacity: 100%;
+}
+
  .rectangle1{
    width: 10.4%;
        top: 3.2%;
        left: 5.5%;
   z-index: 3;
   position: absolute;
+  cursor: pointer;
 }
-
 
 .rectangle2{
   width: 10.4%;
@@ -101,7 +151,22 @@ font-size: 2vw;
   left: 30.28%;
   z-index: 3;
   position: absolute;
+  cursor: pointer;
 }
+
+.stroke2{
+  width: 10.4%;
+  top: 3.2%;
+  left: 30.28%;
+  z-index: 4;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0%;
+ }
+
+ .stroke2:hover{
+ opacity: 100%;
+ }
 
 .rectangle3{
   width: 10.4%;
@@ -109,22 +174,51 @@ font-size: 2vw;
   left: 55.1%;
   z-index: 3;
   position: absolute;
+  cursor: pointer;
+}
+
+.stroke3{
+  width: 10.4%;
+  top: 3.2%;
+  left: 55.1%;
+  z-index: 4;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0%;
+}
+
+.stroke3:hover{
+opacity: 100%;
 }
 
 .rectangle4{
   width: 10.4%;
   top: 3.2%;
   left: 79.9%;
+  z-index: 3;
+  position: absolute;
+  cursor: pointer;
+}
+
+.stroke4{
+  width: 10.4%;
+  top: 3.2%;
+  left: 79.9%;
   z-index: 4;
   position: absolute;
+  cursor: pointer;
+  opacity: 0%;
+}
+
+.stroke4:hover{
+opacity: 100%;
 }
 
 .logo{
   width: 10.53%;
-  top: 90%;
+  top: 92%;
   left: 87.8%;
   position: absolute;
-  display: none;
 }
 
 .calendar{
@@ -132,7 +226,6 @@ font-size: 2vw;
   margin-top: 12.54%;
   width: 30%;
   margin-left: 33%;
-  /* display: none; */
 }
 
 .texttimeline{
@@ -150,8 +243,9 @@ font-size: 2vw;
   color: black;
   font-size: 2.3vw;
   top: 50%;
-  left: 39.4%;
+  left: 38.6%;
   position: absolute;
+  align-self:center;
 }
 
 
@@ -182,6 +276,7 @@ font-size: 2vw;
   filter: grayscale(100%);
   /* display: none; */
 }
+
 
 .tights{
   top: 48%;
@@ -315,40 +410,14 @@ font-size: 2vw;
 }
 
 .video-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    width: 110%;
+    top:0%;
     opacity: 100%;
-    overflow: hidden;
-    z-index: -110;
-    background: url(bg/daisy-stock-poster.jpg) no-repeat ##d3d3d3;
-    background-size: cover;
+    z-index: -130;
     position: absolute;
     display: none;
-
 }
 
-.video-bg > video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-}
-
- @supports (object-fit: cover) {
-     .video-bg > video {
-         top: 0;
-         left: 0;
-         width: 100%;
-         height: 100%;
-         object-fit: cover;
-     }
- }
 
  .school{
    width: 100%;
@@ -401,8 +470,17 @@ font-size: 2vw;
   left: 70.7%;
   width: 2.7% ;
   position: absolute;
-  z-index: 111;
+  z-index: 112;
   display: none;
+}
+
+.fog5{
+  top: 44%;
+  left:69.7%;
+  width: 5.7% ;
+  position: absolute;
+  z-index: 111;
+  opacity: 100%;
 }
 
 .candle1{
@@ -411,16 +489,28 @@ font-size: 2vw;
   top: 45%;
   left: 67%;
   position: absolute;
-  display: none;
+}
+
+.candle1{
+  cursor: url("../images/jiga.png"), auto;
 }
 
 .fire1{
   top: 81%;
   left: 23.7%;
-  width: 2.7% ;
+  width: 2% ;
   position: absolute;
-  z-index: 111;
+  z-index: 112;
   display: none;
+}
+
+.fog1{
+  top: 78%;
+  left: 20.7%;
+  width: 10% ;
+  position: absolute;
+  z-index: 110;
+  opacity: 100%;
 }
 
  .candle2{
@@ -429,7 +519,6 @@ font-size: 2vw;
   top: 80%;
   left: 20%;
   position: absolute;
-  display: none;
   }
 
 .fire2{
@@ -437,9 +526,19 @@ font-size: 2vw;
   left: 7%;
   width: 5% ;
   position: absolute;
-  z-index: 111;
+  z-index: 112;
   display: none;
 }
+
+.fog2{
+  top: 18%;
+  left: 5%;
+  width: 10% ;
+  position: absolute;
+  z-index: 111;
+  opacity: 100%;
+}
+
 
 .candle3{
   width: 15%;
@@ -447,16 +546,25 @@ font-size: 2vw;
   top: 17%;
   left: 2%;
   position: absolute;
-  display: none;
   }
 
+
 .fire4{
+  top: 8%;
+  left: 62.4%;
+  width: 2.2%;
+  position: absolute;
+  z-index: 112;
+  display: none;
+}
+
+.fog4{
   top: 9%;
   left: 62.4%;
   width: 2% ;
   position: absolute;
   z-index: 111;
-  display: none;
+  opacity: 100%;
 }
 
 .candle4{
@@ -465,7 +573,7 @@ font-size: 2vw;
  top: 9%;
  left: 60%;
  position: absolute;
- display: none;
+ cursor: url("images/jiga.jpg"), auto;
 }
 
 .fire3{
@@ -473,8 +581,17 @@ font-size: 2vw;
   left:7.8%;
   width: 2.3% ;
   position: absolute;
-  z-index: 111;
+  z-index: 112;
   display: none;
+}
+
+.fog3{
+  top: 71%;
+  left:6.8%;
+  width: 4.3% ;
+  position: absolute;
+  z-index: 111;
+  opacity: 100%;
 }
 
 .candle5{
@@ -483,7 +600,6 @@ font-size: 2vw;
  top: 70%;
  left: 5%;
  position: absolute;
- display: none;
 }
 
 .candle6{
@@ -492,16 +608,24 @@ font-size: 2vw;
  top: 72%;
  left: 55%;
  position: absolute;
- display: none;
 }
 
 .fire6{
   top: 70%;
   left: 60%;
   width: 4.6%;
+  z-index: 114;
+  position: absolute;
+  display: none;
+}
+
+.fog6{
+  top: 70%;
+  left: 58%;
+  width: 9%;
   position: absolute;
   z-index: 113;
-  display: none;
+  opacity: 100%;
 }
 
 
@@ -643,7 +767,7 @@ font-size: 2vw;
 .textsketchNumber{
   z-index: 110;
   top: 38%;
- left: 41.7%;
+  left: 41.5%;
   display: none;
   position: absolute;
 }
@@ -651,7 +775,7 @@ font-size: 2vw;
 .textsketchmonth{
   z-index: 110;
   top: 88%;
-  left: 18.3%;
+  left: 13.3%;
   display: none;
   position: absolute;
 }
@@ -669,7 +793,7 @@ font-size: 2vw;
 .textSausageNumber{
   z-index: 110;
   top: 38%;
-  left: 44%;
+  left: 44.7%;
   display: none;
   position: absolute;
 }
@@ -685,7 +809,7 @@ font-size: 2vw;
 .textSausage{
   z-index: 111;
   top: 70%;
-  left: 37.3%;
+  left: 38.3%;
   display: none;
   font-size: 1.2vw;
   position: absolute;
@@ -716,7 +840,83 @@ font-size: 2vw;
   position: absolute;
 }
 
+.textumbrellaNumber{
+  z-index: 110;
+  top: 38%;
+  left: 41.5%;
+  display: none;
+  position: absolute;
+    align-items: center;
+}
 
+.textumbrellamonth{
+  z-index: 110;
+  top: 88%;
+  left: 11.3%;
+  display: none;
+  position: absolute;
+  align-items: center;
+}
+
+.textumbrella{
+  z-index: 111;
+  top: 70%;
+  left: 38.3%;
+  display: none;
+  font-size: 1.2vw;
+  position: absolute;
+
+}
+
+.textticketNumber{
+  z-index: 110;
+  top: 38%;
+  left: 41.5%;
+  display: none;
+  position: absolute;
+}
+
+.textticketmonth{
+  z-index: 110;
+  top: 88%;
+  left: 5.3%;
+  display: none;
+  position: absolute;
+}
+
+.textticket{
+  z-index: 111;
+  top: 70%;
+  left: 38.3%;
+  display: none;
+  font-size: 1.2vw;
+  position: absolute;
+}
+
+.textpomegranteNumber{
+  z-index: 110;
+  top: 38%;
+  left: 45.5%;
+  display: none;
+  position: absolute;
+}
+
+.textpomegrantemonth{
+  z-index: 110;
+  top: 88%;
+  left: 5.3%;
+  display: none;
+  position: absolute;
+}
+
+.textpomegrante{
+  z-index: 111;
+  top: 70%;
+  left: 38.3%;
+  display: none;
+  font-size: 1.2vw;
+  position: absolute;
+}
 
 .none{
   display: none;
@@ -738,3 +938,18 @@ font-size: 2vw;
 .visiblea{
 display: block;
 }
+
+
+/* #mainlight{
+  width: 30%;
+  overflow: hidden;
+  position: relative;
+  z-index: 200;
+  top: -30%;
+} */
+
+/* #obj{
+  position: absolute;
+  z-index: 200;
+  width: 20%;
+} */
