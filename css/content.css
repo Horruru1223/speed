@@ -170,9 +170,9 @@ body{
 }
 
  .rectangle1{
-  width: 10.15%;
+  width: 10.20%;
   top: 3.2%;
-  left: 6%;
+  left: 5.5%;
   z-index: 3;
   position: absolute;
   /* display: none; */
@@ -180,27 +180,27 @@ body{
 
 
 .rectangle2{
-  width: 10%;
+  width: 10.20%;
   top: 3.2%;
-  left: 31.5%;
+  left: 31.28%;
   z-index: 3;
   position: absolute;
   /* display: none; */
 }
 
 .rectangle3{
-  width: 10.15%;
+  width: 10.20%;
   top: 3.2%;
-  left: 57.1%;
+  left: 57.28%;
   z-index: 3;
   position: absolute;
   /* display: none; */
 }
 
 .rectangle4{
-  width: 10.15%;
+  width: 10.20%;
   top: 3.2%;
-  left: 76.3%;
+  left: 76.66%;
   z-index: 4;
   position: absolute;
   /* display: none; */
