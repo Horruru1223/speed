@@ -23,12 +23,13 @@ $(document).ready(function(){
 
 $(document).ready(function() {
   $('.rectangle1').click(function(){
-      $('.section4').removeClass("none")
+      $('.section4').removeClass("none");
+      $('.texttimeline').addClass("none")
       $('.texttimelinetwo').removeClass("none")
       $('.section5').addClass("none")
       $('.section6').addClass("none")
-      $('.section7').addСlass("none")
-      $(".texttimeline").addClass("none");
+      // $('.section7').addСlass ("none")
+
   });
 });
 
@@ -58,12 +59,13 @@ $(document).ready(function() {
   $('.rectangle4').click(function(){
       $('.section7').removeClass("none")
       $('.texttimelinetwo').removeClass("none")
+      $('.section4').addClass("none")
       $('.section5').addClass("none")
       $('.section6').addClass("none")
-      $('.section4').addClass("none")
       $(".texttimeline").addClass("none");
   });
 });
+
 
 $(document).ready(function() {
   $('.umbrella').click(function(){
@@ -102,9 +104,12 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('.watermelon').click(function(){
-    $('.video-lake').css("display", "block");
+    $('.lake').removeClass("none");
     $(".watermelon").css("filter", "grayscale(0%)");
     $('.dacha').css("display", "none");
+    $('.textWatermelonNumber').css("display", "block");
+    $('.textWatermelonmonth').css("display", "block");
+    $('.textWatermelon').css("display", "block");
     $('.pancakes').css("filter", "grayscale(100%)");
     $(".sketch").css("filter", "grayscale(100%)");
     $('.fire1').css("display", "none");
@@ -130,7 +135,7 @@ $(document).ready(function() {
   $('.pancakes').click(function(){
     $('.dacha').css("display", "block");
     $('.pancakes').css("filter", "grayscale(0%)");
-    $('.video-lake').css("display", "none");
+    $('.lake').addClas("none");
     $(".sketch").css("filter", "grayscale(100%)");
     $('.watermelon').css("filter", "grayscale(100%)");
     $('.fire1').css("display", "");
@@ -146,6 +151,9 @@ $(document).ready(function() {
     $('.candle5').css("display", "none");
     $('.candle6').css("display", "none");
     $(".sketch").css("filter", "grayscale(100%)");
+    $('.textWatermelonNumber').css("display", "none");
+    $('.textWatermelonmonth').css("display", "none");
+    $('.textWatermelon').css("display", "none");
     $(".texttimelinetwo").addClass("none");
     $(".texttimeline").addClass("none");
 
@@ -160,8 +168,17 @@ $(document).ready(function() {
     $('.ladybug').css("filter", "grayscale(0%)");
     $('.window').css("display", "none");
     $('.tights').css("filter", "grayscale(100%)");
+    $('.textLadybugNumber').css("display", "block");
+    $('.textLadybugmonth').css("display", "block");
+    $('.textLadybug').css("display", "block");
+    $('.textKittyNumber').css("display", "none");
+    $('.textKittymonth').css("display", "none");
+    $('.textKitty').css("display", "none");
     $(".texttimelinetwo").addClass("none");
     $(".texttimeline").addClass("none");
+    $('.textTightsNumber').css("display", "none");
+    $('.textTightsmonth').css("display", "none");
+    $('.textTights').css("display", "none");
 
   });
 });
@@ -181,6 +198,9 @@ $(document).ready(function() {
     $('.textKittyNumber').css("display", "none");
     $('.textKittymonth').css("display", "none");
     $('.textKitty').css("display", "none");
+    $('.textLadybugNumber').css("display", "none");
+    $('.textLadybugmonth').css("display", "none");
+    $('.textLadybug').css("display", "none");
     $(".texttimelinetwo").addClass("none");
     $(".texttimeline").addClass("none");
 
@@ -203,6 +223,9 @@ $(document).ready(function() {
     $('.textTightsNumber').css("display", "none");
     $('.textTightsmonth').css("display", "none");
     $('.textTights').css("display", "none");
+    $('.textLadybugNumber').css("display", "none");
+    $('.textLadybugmonth').css("display", "none");
+    $('.textLadybug').css("display", "none");
     $(".texttimelinetwo").addClass("none");
 
   });
@@ -226,7 +249,10 @@ $(document).ready(function() {
     $('.dacha').css("display", "none");
     $('.pancakes').css("filter", "grayscale(100%)");
     $(".watermelon").css("filter", "grayscale(100%)");
-    $('.video-lake').css("display", "none");
+    $('.lake').addClass("none");
+    $('.textWatermelonNumber').css("display", "none");
+    $('.textWatermelonmonth').css("display", "none");
+    $('.textWatermelon').css("display", "none");
     $(".texttimelinetwo").addClass("none");
     $(".texttimeline").addClass("none");
 
