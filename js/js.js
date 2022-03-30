@@ -16,6 +16,7 @@ $(document).ready(function(){
         $(".maintexttwo").removeClass("visible");
         $(".mainArrow").removeClass("visible");
         $(".video-main").removeClass("visible");
+        $(".hse").css("display", "none");
         $(".timeline").removeClass("none");
         $(".texttimeline").removeClass("none");
     });
@@ -23,7 +24,7 @@ $(document).ready(function(){
 
 $(document).ready(function() {
   $('.rectangle1').click(function(){
-      $('.section4').removeClass("none");
+      $('.section4').toggleClass("none");
       $('.texttimeline').addClass("none")
       $('.texttimelinetwo').removeClass("none")
       $('.section5').addClass("none")
@@ -35,7 +36,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
    $('.rectangle2').click(function(){
-      $('.section5').removeClass("none")
+      $('.section5').toggleClass("none")
       $('.texttimelinetwo').removeClass("none")
       $('.section4').addClass("none")
       $('.section6').addClass("none")
@@ -46,7 +47,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('.rectangle3').click(function(){
-      $('.section6').removeClass("none")
+      $('.section6').toggleClass("none")
       $('.texttimelinetwo').removeClass("none")
       $('.section5').addClass("none")
       $('.section4').addClass("none")
@@ -57,7 +58,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('.rectangle4').click(function(){
-      $('.section7').removeClass("none")
+      $('.section7').toggleClass("none")
       $('.texttimelinetwo').removeClass("none")
       $('.section4').addClass("none")
       $('.section5').addClass("none")
@@ -92,13 +93,35 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+  $('.two').click(function(){
+    $('.textTwoNumber').css("display", "block");
+    $('.textTwomonth').css("display", "block");
+    $('.textTwo').css("display", "block");
+    $(".two").css("filter", "grayscale(0%)");
+    $('.school').css("display", "none");
+    $(".texttimelinetwo").addClass("none");
+    $('.sausage').css("filter", "grayscale(100%)");
+    $(".texttimeline").addClass("none");
+    $('.textSausageNumber').css("display", "none");
+    $('.textSausagemonth').css("display", "none");
+    $('.textSausage').css("display", "none");
+
+  });
+});
+
+$(document).ready(function() {
   $('.sausage').click(function(){
     $('.school').css("display", "block");
     $(".sausage").css("filter", "grayscale(0%)");
     $(".texttimelinetwo").addClass("none");
     $('.two').css("filter", "grayscale(100%)");
     $(".texttimeline").addClass("none");
-
+    $('.textSausageNumber').css("display", "block");
+    $('.textSausagemonth').css("display", "block");
+    $('.textSausage').css("display", "block");
+    $('.textTwoNumber').css("display", "none");
+    $('.textTwomonth').css("display", "none");
+    $('.textTwo').css("display", "none");
   });
 });
 
@@ -127,7 +150,12 @@ $(document).ready(function() {
     $(".sketch").css("filter", "grayscale(100%)");
     $(".texttimelinetwo").addClass("none");
     $(".texttimeline").addClass("none");
-
+    $('.textsketchNumber').css("display", "none");
+    $('.textsketchmonth').css("display", "none");
+    $('.textsketch').css("display", "none");
+    $('.textPancake').css("display", "none");
+    $('.textPancakesNumber').css("display", "none");
+    $('.textPancakesmonth').css("display", "none");
   });
 });
 
@@ -135,10 +163,13 @@ $(document).ready(function() {
   $('.pancakes').click(function(){
     $('.dacha').css("display", "block");
     $('.pancakes').css("filter", "grayscale(0%)");
-    $('.lake').addClas("none");
+    $('.lake').addClass("none");
     $(".sketch").css("filter", "grayscale(100%)");
     $('.watermelon').css("filter", "grayscale(100%)");
-    $('.fire1').css("display", "");
+    $('.textPancake').css("display", "block");
+    $('.textPancakesNumber').css("display", "block");
+    $('.textPancakesmonth').css("display", "block");
+    $('.fire1').css("display", "none");
     $('.fire2').css("display", "none");
     $('.fire3').css("display", "none");
     $('.fire4').css("display", "none");
@@ -156,6 +187,10 @@ $(document).ready(function() {
     $('.textWatermelon').css("display", "none");
     $(".texttimelinetwo").addClass("none");
     $(".texttimeline").addClass("none");
+    $('.textsketchNumber').css("display", "none");
+    $('.textsketchmonth').css("display", "none");
+    $('.textsketch').css("display", "none");
+
 
   });
 });
@@ -245,6 +280,9 @@ $(document).ready(function() {
     $('.candle4').css("display", "block");
     $('.candle5').css("display", "block");
     $('.candle6').css("display", "block");
+    $('.textsketchNumber').css("display", "block");
+    $('.textsketchmonth').css("display", "block");
+    $('.textsketch').css("display", "block");
     $(".sketch").css("filter", "grayscale(0%)");
     $('.dacha').css("display", "none");
     $('.pancakes').css("filter", "grayscale(100%)");
@@ -255,6 +293,8 @@ $(document).ready(function() {
     $('.textWatermelon').css("display", "none");
     $(".texttimelinetwo").addClass("none");
     $(".texttimeline").addClass("none");
-
+    $('.textPancake').css("display", "none");
+    $('.textPancakesNumber').css("display", "none");
+    $('.textPancakesmonth').css("display", "none");
   });
 });
