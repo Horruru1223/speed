@@ -1,0 +1,1069 @@
+@media (min-width:1367px) and (max-width:1440px) {
+  @import url(https://fonts.google.com/specimen/Bitter#standard-styles);
+
+  body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .video-main {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 80%;
+      overflow: hidden;
+      z-index: -999;
+      background: black;
+      background-size: cover;
+      position: absolute;
+      display: none;
+  }
+
+  .hse{
+    width:13%;
+    top: 88%;
+    left: 1%;
+    position: absolute;
+    display: block;
+  }
+
+  .group{
+  font-family: Bitter, 'Bitter';
+  left: 8%;
+  z-index: 1;
+  top:94.3%;
+  position: absolute;
+  color: black;
+  font-size: 2vw;
+  }
+
+   .dacha{
+     width: 100%;
+     height: 101.9%;
+     z-index: -100;
+     top: 0%;
+     opacity: 65%;
+     position: absolute;
+     display: none;
+   }
+
+  .mainArrow {
+    animation: 2.7s linear 0s normal none infinite running mainArrow;
+    -webkit-animation: 3.3s linear 0s normal none infinite running mainArrow;
+    width: 100%;
+    z-index: 999;
+    top: 60%;
+    left: -10%;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+  }
+
+  @keyframes mainArrow {
+    0% {
+      transform: translateX(-10%);
+    }
+    50% {
+      transform: translateX(-5%);
+    }
+    100% {
+      transform: translateX(-10%);
+    }
+  }
+
+  @-webkit-keyframes mainArrow {
+    0% {
+      transform: translateX(-10%);
+    }
+    50% {
+      transform: translateX(-5%);
+    }
+    100% {
+      transform: translateX(-10%);
+    }
+  }
+
+
+  .maintextone{
+    font-family: Bitter, 'Bitter';
+    color: black;
+    font-size: 12vw;
+    top: 7%;
+    left: 1%;
+    display: none;
+    position: absolute;
+    line-height: 80%;
+  }
+
+  .maintexttwo{
+    font-family: Bitter, 'Bitter';
+    color: black;
+    top: 42%;
+    left: 1.8%;
+    font-size: 2.3vw;
+    display: none;
+    position: absolute;
+  }
+
+  .maintextt{
+    font-family: Bitter, 'Bitter';
+    color: black;
+    top: 49%;
+    left: 1.8%;
+    font-size: 1.7vw;
+    display: none;
+    position: absolute;
+  }
+
+  .arrow{
+    width: 96%;
+    top: 6%;
+    left: -1%;
+    z-index: -2;
+    position: absolute;
+  }
+
+  .stroke1{
+    width: 10.4%;
+        top: 3.2%;
+        left: 5.5%;
+   z-index: 4;
+   position: absolute;
+   cursor: pointer;
+   opacity: 0%;
+  }
+
+  .stroke1:hover{
+  opacity: 100%;
+  }
+
+   .rectangle1{
+     width: 10.4%;
+         top: 3.2%;
+         left: 5.5%;
+    z-index: 3;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .rectangle2{
+    width: 10.4%;
+    top: 3.2%;
+    left: 30.28%;
+    z-index: 3;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .stroke2{
+    width: 10.4%;
+    top: 3.2%;
+    left: 30.28%;
+    z-index: 4;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0%;
+   }
+
+   .stroke2:hover{
+   opacity: 100%;
+   }
+
+  .rectangle3{
+    width: 10.4%;
+    top: 3.2%;
+    left: 55.1%;
+    z-index: 3;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .stroke3{
+    width: 10.4%;
+    top: 3.2%;
+    left: 55.1%;
+    z-index: 4;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0%;
+  }
+
+  .stroke3:hover{
+  opacity: 100%;
+  }
+
+  .rectangle4{
+    width: 10.4%;
+    top: 3.2%;
+    left: 79.9%;
+    z-index: 3;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .stroke4{
+    width: 10.4%;
+    top: 3.2%;
+    left: 79.9%;
+    z-index: 4;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0%;
+  }
+
+  .stroke4:hover{
+  opacity: 100%;
+  }
+
+  .logo{
+    width: 10.53%;
+    top: 92%;
+    left: 87.8%;
+    position: absolute;
+  }
+
+  .calendar{
+    z-index: 105;
+    margin-top: 12.54%;
+    width: 30%;
+    margin-left: 33%;
+  }
+
+  .texttimeline{
+    font-family: Bitter, 'Bitter';
+    color: black;
+    font-size: 2.3vw;
+    top: 50%;
+    left: 39.2%;
+    position: absolute;
+    align-self:center;
+  }
+
+  .texttimelinetwo{
+    font-family: Bitter, 'Bitter';
+    color: black;
+    font-size: 2.3vw;
+    top: 50%;
+    left: 38.6%;
+    position: absolute;
+    align-self:center;
+  }
+
+
+  .none{
+    display: none;
+  }
+
+  .maintext{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text2{
+    z-index: 7;
+    top: -17%;
+    width: 30%;
+    margin-left: 39.9%;
+    display: none;
+  }
+
+  .kittya{
+    top: 25%;
+    left: 7%;
+    width: 15%;
+    z-index: 4;
+    transform: rotate(10deg);
+    position: absolute;
+    opacity: 0%;
+    cursor: pointer;
+  }
+
+  .kittya:hover{
+    opacity: 50%;
+  }
+
+  .kitty{
+    top: 25%;
+    left: 7%;
+    width: 15%;
+    z-index: 2;
+    position: absolute;
+    transform: rotate(10deg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+
+  .tightsa{
+    top: 48%;
+    left: 4%;
+    width: 30%;
+    position: absolute;
+    transform: rotate(-10deg);
+    opacity: 0% ;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .tightsa:hover{
+    opacity: 50%;
+  }
+
+  .tights{
+    top: 48%;
+    left: 4%;
+    width: 30%;
+    position: absolute;
+    transform: rotate(-10deg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .ladybuga{
+    z-index: 8;
+    top: 40%;
+    left: 72%;
+    width: 15%;
+    position: absolute;
+    transform: rotate(17deg);
+    opacity: 0%;
+    cursor: pointer;
+  }
+
+  .ladybuga:hover{
+  opacity: 50%;
+  }
+
+  .ladybug{
+    z-index: 7;
+    top: 40%;
+    left: 72%;
+    width: 15%;
+    position: absolute;
+    transform: rotate(17deg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+
+  .watermelon{
+    top: 28%;
+    left: 5%;
+    width: 26%;
+    position: absolute;
+    transform: rotate(-5deg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+
+  .watermelona{
+    top: 28%;
+    left: 5%;
+    width: 26%;
+    position: absolute;
+    transform: rotate(-5deg);
+    opacity: 0%;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .watermelona:hover{
+    opacity: 50%;
+  }
+
+  .pancakes{
+    z-index: 8;
+    top: 20%;
+    left: 70%;
+    width: 18%;
+    position: absolute;
+    transform: rotate(-10deg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+
+  .pancakesa{
+    z-index: 9;
+    top: 20%;
+    left: 70%;
+    width: 18%;
+    position: absolute;
+    transform: rotate(-10deg);
+    opacity: 0%;
+    cursor: pointer;
+  }
+
+  .pancakesa:hover{
+    opacity: 50%;
+  }
+
+  .sketch{
+    z-index: 7;
+    top: 40%;
+    left: 68%;
+    width: 27%;
+    position: absolute;
+    transform: rotate(17deg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+
+  .sketcha{
+    z-index: 8;
+    top: 40%;
+    left: 68%;
+    width: 27%;
+    position: absolute;
+    transform: rotate(17deg);
+    opacity: 0%;
+    cursor: pointer;
+  }
+
+  .sketcha:hover{
+    opacity: 50%;
+  }
+
+  .sausage{
+    z-index: 7;
+    top: 40%;
+    left: 4%;
+    width: 27%;
+    position: absolute;
+    transform: rotate(7deg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+
+  .sausagea{
+    z-index: 8;
+    top: 40%;
+    left: 4%;
+    width: 27%;
+    position: absolute;
+    transform: rotate(7deg);
+    opacity: 0%;
+    cursor: pointer;
+  }
+
+  .sausagea:hover{
+    opacity: 50%;
+  }
+
+  .two{
+    z-index: 7;
+    top: 40%;
+    left: 70%;
+    width: 18%;
+    position: absolute;
+    transform: rotate(-20deg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+
+  .twoa{
+    z-index: 8;
+    top: 40%;
+    left: 70%;
+    width: 18%;
+    position: absolute;
+    transform: rotate(-20deg);
+    opacity: 0%;
+    cursor: pointer;
+  }
+
+  .twoa:hover{
+    opacity: 50%;
+  }
+
+  .pomegrante{
+    z-index: 7;
+    top: 30%;
+    left: 3.5%;
+    width: 27%;
+    position: absolute;
+    transform: rotate(17deg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+
+  .pomegrantea{
+    z-index: 8;
+    top: 30%;
+    left: 3.5%;
+    width: 27%;
+    position: absolute;
+    transform: rotate(17deg);
+    opacity: 0%;
+    cursor: pointer;
+  }
+
+  .pomegrantea:hover{
+    opacity: 70%;
+  }
+
+  .umbrella{
+    z-index: 8;
+    top: 10%;
+    left: 70%;
+    width: 26%;
+    position: absolute;
+    transform: rotate(8deg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+
+  .umbrellaa{
+    z-index: 9;
+    top: 10%;
+    left: 70%;
+    width: 26%;
+    position: absolute;
+    transform: rotate(8deg);
+    opacity: 0%;
+    cursor: pointer;
+  }
+
+  .umbrellaa:hover{
+    opacity: 50%;
+  }
+
+
+  .ticket{
+    top: 50%;
+    left: 73%;
+    width: 20%;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(-10deg);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+
+  .ticketa{
+    top: 50%;
+    left: 73%;
+    width: 20%;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(-10deg);
+    opacity: 0%;
+    cursor: pointer;
+  }
+
+  .ticketa:hover{
+    opacity: 50%;
+  }
+
+  .video{
+    width: 100%;
+  }
+
+  .sea{
+    width: 100%;
+    height: 101.9%;
+    z-index: -100;
+    top: 0%;
+    opacity: 65%;
+    position: absolute;
+    display: none;
+  }
+
+  .video-bg {
+      width: 100%;
+      height: 100%;
+      top:0%;
+      opacity: 100%;
+      z-index: -130;
+      position: absolute;
+      display: none;
+  }
+
+
+   .school{
+     width: 100%;
+     position: absolute;
+     height: 101.9%;
+     z-index: -100;
+     top: 0%;
+     opacity: 70%;
+     position: absolute;
+     display: none;
+   }
+
+  .lake{
+    top: -10%;
+    width: 100%;
+    z-index: -110;
+    position: absolute;
+  }
+
+   .video-lake {
+       position: fixed;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       opacity: 100%;
+       overflow: hidden;
+       z-index: -110;
+       background: url(bg/daisy-stock-poster.jpg) no-repeat ##d3d3d3;
+       background-size: cover;
+       position: absolute;
+       display: none;
+
+   }
+
+
+
+    .dacha{
+      width: 100%;
+      height: 101.9%;
+      z-index: -100;
+      top: 0%;
+      opacity: 65%;
+      position: absolute;
+      display: none;
+    }
+
+  .fire5{
+    top: 42%;
+    left: 70.3%;
+    width: 2.7% ;
+    position: absolute;
+    z-index: 193;
+    display: none;
+    cursor: url("../images/jiga.png"), auto;
+
+  }
+
+  .candle1{
+    width: 10%;
+    z-index: 112;
+    top: 45%;
+    left: 67%;
+    position: absolute;
+    cursor: url("../images/jiga.png"), auto;
+  }
+
+  .fire1{
+    top: 79%;
+    left: 23.9%;
+    width: 2% ;
+    position: absolute;
+    z-index: 113;
+    display: none;
+    cursor: url("../images/jiga.png"), auto;
+  }
+
+   .candle2{
+    width: 10%;
+    z-index: 112;
+    top: 80%;
+    left: 20%;
+    position: absolute;
+    cursor: url("../images/jiga.png"), auto;
+  }
+
+  .fire2{
+    top: 9%;
+    left: 6.5%;
+    width: 5% ;
+    position: absolute;
+    z-index: 113;
+    display: none;
+    cursor: url("../images/jiga.png"), auto;
+  }
+
+  .candle3{
+    width: 15%;
+    z-index: 112;
+    top: 17%;
+    left: 2%;
+    position: absolute;
+    cursor: url("../images/jiga.png"), auto;
+    }
+
+  .fire4{
+    top: 6%;
+    left: 62.2%;
+    width: 2.2%;
+    position: absolute;
+    z-index: 113;
+    display: none;
+    cursor: url("../images/jiga.png"), auto;
+  }
+
+  .candle4{
+   width: 7%;
+   z-index: 112;
+   top: 9%;
+   left: 60%;
+   position: absolute;
+   cursor: url("../images/jiga.png"), auto;
+  }
+
+  .fire3{
+    top: 72%;
+    left: 5.7%;
+    width: 2.3% ;
+    position: absolute;
+    z-index: 200;
+    display: none;
+    cursor: url("../images/jiga.png"), auto;
+  }
+
+  .candle5{
+   width: 8%;
+   z-index: 112;
+   top: 76%;
+   left: 3%;
+   position: absolute;
+   cursor: url("../images/jiga.png"), auto;
+
+  }
+
+  .candle6{
+   width: 14%;
+   z-index: 112;
+   top: 72%;
+   left: 55%;
+   position: absolute;
+   cursor: url("../images/jiga.png"), auto;
+  }
+
+  .fire6{
+    top: 66%;
+    left: 59%;
+    width: 4.6%;
+    z-index: 114;
+    position: absolute;
+    display: none;
+    cursor: url("../images/jiga.png"), auto;
+  }
+
+  .window{
+    width: 100%;
+    height: 101.9%;
+    z-index: -100;
+    top: 0%;
+    /* opacity: 65%; */
+    position: absolute;
+    display: none;
+  }
+
+  .textKittyNumber{
+    z-index: 110;
+    top: 35%;
+    left: 41.7%;
+    display: none;
+    position: absolute;
+  }
+
+  .textKittymonth{
+    z-index: 110;
+    top: 97%;
+    left: 14.3%;
+    display: none;
+    position: absolute;
+  }
+
+  .textKitty{
+    z-index: 111;
+    top: 65%;
+    left: 38.8%;
+    display: none;
+    font-size: 1.2vw;
+    position: absolute;
+  }
+
+  .textTightsNumber{
+    z-index: 110;
+    top: 35%;
+    left: 44.5%;
+    display: none;
+    position: absolute;
+  }
+
+  .textTightsmonth{
+    z-index: 110;
+    top: 97%;
+    left: -39.7%;
+    display: none;
+    position: absolute;
+  }
+
+  .textTights{
+    z-index: 111;
+    top: 65%;
+    left: 35.3%;
+    display: none;
+    font-size: 1.2vw;
+    position: absolute;
+  }
+
+  .textLadybugNumber{
+    z-index: 110;
+    top: 35%;
+    left: 41.5%;
+    display: none;
+    position: absolute;
+  }
+
+  .textLadybugmonth{
+    z-index: 110;
+    top: 97%;
+    left: 18.3%;
+    display: none;
+    position: absolute;
+  }
+
+  .textLadybug{
+    z-index: 111;
+    top: 65%;
+    left: 36.3%;
+    display: none;
+    font-size: 1.2vw;
+    position: absolute;
+  }
+
+  .textWatermelonNumber{
+    z-index: 110;
+    top: 35%;
+    left: 44%;
+    display: none;
+    position: absolute;
+  }
+
+  .textWatermelonmonth{
+    z-index: 110;
+    top: 97%;
+    left: -6%;
+    display: none;
+    position: absolute;
+  }
+
+  .textWatermelon{
+    z-index: 111;
+    top: 65%;
+    left: 35.3%;
+    display: none;
+    font-size: 1.2vw;
+    position: absolute;
+  }
+
+  .textPancakesNumber{
+    z-index: 110;
+    top: 35%;
+    left: 41.5%;
+    display: none;
+    position: absolute;
+  }
+
+  .textPancakesmonth{
+    z-index: 110;
+    top: 97%;
+    left: 13.3%;
+    display: none;
+    position: absolute;
+  }
+
+  .textPancake{
+    z-index: 111;
+    top: 65%;
+    left: 37.3%;
+    display: none;
+    font-size: 1.2vw;
+    position: absolute;
+  }
+
+  .textsketchNumber{
+    z-index: 110;
+    top: 35%;
+    left: 41.5%;
+    display: none;
+    position: absolute;
+  }
+
+  .textsketchmonth{
+    z-index: 110;
+    top: 97%;
+    left: 13.3%;
+    display: none;
+    position: absolute;
+  }
+
+  .textsketch{
+    z-index: 111;
+    top: 65%;
+    left: 35.3%;
+    display: none;
+    font-size: 1.2vw;
+    position: absolute;
+  }
+
+
+  .textSausageNumber{
+    z-index: 110;
+    top: 35%;
+    left: 44.7%;
+    display: none;
+    position: absolute;
+  }
+
+  .textSausagemonth{
+    z-index: 110;
+    top: 97%;
+    left: -48.7%;
+    display: none;
+    position: absolute;
+  }
+
+  .textSausage{
+    z-index: 111;
+    top: 65%;
+    left: 38.3%;
+    display: none;
+    font-size: 1.2vw;
+    position: absolute;
+  }
+
+  .textTwoNumber{
+    z-index: 110;
+    top: 35%;
+    left: 41.5%;
+    display: none;
+    position: absolute;
+  }
+
+  .textTwomonth{
+    z-index: 110;
+    top: 97%;
+    left: 5.3%;
+    display: none;
+    position: absolute;
+  }
+
+  .textTwo{
+    z-index: 111;
+    top: 65%;
+    left: 38.3%;
+    display: none;
+    font-size: 1.2vw;
+    position: absolute;
+  }
+
+  .textumbrellaNumber{
+    z-index: 110;
+    top: 38%;
+    left: 41.5%;
+    display: none;
+    position: absolute;
+    align-items: center;
+  }
+
+  .textumbrellamonth{
+    z-index: 110;
+    top: 97%;
+    left: 11.3%;
+    display: none;
+    position: absolute;
+    align-items: center;
+  }
+
+  .textumbrella{
+    z-index: 111;
+    top: 65%;
+    left: 38.3%;
+    display: none;
+    font-size: 1.2vw;
+    position: absolute;
+
+  }
+
+  .textticketNumber{
+    z-index: 110;
+    top: 38%;
+    left: 45%;
+    display: none;
+    position: absolute;
+    align-items: center;
+  }
+
+  .textticketmonth{
+    z-index: 110;
+    top: 97%;
+    left: -40.3%;
+    display: none;
+    position: absolute;
+    align-items: center;
+  }
+
+  .textticket{
+    z-index: 111;
+    top: 65%;
+    left: 38.3%;
+    display: none;
+    font-size: 1.2vw;
+    position: absolute;
+  }
+
+  .textpomegranteNumber{
+    z-index: 110;
+    top: 35%;
+    left: 41.5%;
+    display: none;
+    position: absolute;
+    align-items: center;
+  }
+
+  .textpomegrantemonth{
+    z-index: 110;
+    top: 97%;
+    left: 5.3%;
+    display: none;
+    position: absolute;
+    align-items: center;
+  }
+
+  .textpomegrante{
+    z-index: 111;
+    top: 65%;
+    left: 36.4%;
+    display: none;
+    font-size: 1.2vw;
+    position: absolute;
+  }
+
+  .none{
+    display: none;
+  }
+
+  .visible{
+    display: block;
+  }
+
+  #c{
+    width:;
+    height: ;
+    display: x
+  }
+
+  .mainscreen{
+
+  }
+  .visiblea{
+  display: block;
+  {
+}
