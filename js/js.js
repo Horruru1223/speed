@@ -195,6 +195,12 @@ $(document).ready(function() {
     $('.pancakes').css("filter", "grayscale(100%)");
     $(".sketch").css("filter", "grayscale(100%)");
     $('.fog').addClass("none")
+    $('.fire1').css("display", "none");
+    $('.fire2').css("display", "none");
+    $('.fire3').css("display", "none");
+    $('.fire4').css("display", "none");
+    $('.fire5').css("display", "none");
+    $('.fire6').css("display", "none");
     $('.candle').addClass("none")
     $(".sketch").css("filter", "grayscale(100%)");
     $(".texttimelinetwo").addClass("none");
