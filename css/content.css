@@ -48,16 +48,6 @@ font-size: 2vw;
    display: none;
  }
 
-
-/* .mainArrow{
-  width: 100%;
-  z-index: 999;
-  top: 60%;
-  left: -10%;
-  position: absolute;
-  display: none;
-} */
-
 .mainArrow {
   animation: 2.7s linear 0s normal none infinite running mainArrow;
   -webkit-animation: 3.3s linear 0s normal none infinite running mainArrow;
@@ -68,7 +58,6 @@ font-size: 2vw;
   position: absolute;
   display: none;
   cursor: pointer;
-
 }
 
 @keyframes mainArrow {
@@ -82,6 +71,7 @@ font-size: 2vw;
     transform: translateX(-10%);
   }
 }
+
 @-webkit-keyframes mainArrow {
   0% {
     transform: translateX(-10%);
@@ -94,22 +84,34 @@ font-size: 2vw;
   }
 }
 
+
 .maintextone{
   font-family: Bitter, 'Bitter';
   color: black;
   font-size: 12vw;
-  top: 2%;
+  top: 7%;
   left: 1%;
   display: none;
   position: absolute;
+  line-height: 80%;
 }
 
 .maintexttwo{
   font-family: Bitter, 'Bitter';
   color: black;
-  top: 50%;
-  left: 1%;
+  top: 45%;
+  left: 1.8%;
   font-size: 2.3vw;
+  display: none;
+  position: absolute;
+}
+
+.maintextt{
+  font-family: Bitter, 'Bitter';
+  color: black;
+  top: 52%;
+  left: 1.8%;
+  font-size: 1.7vw;
   display: none;
   position: absolute;
 }
@@ -266,21 +268,19 @@ opacity: 100%;
   display: none;
 }
 
-.roundkitty{
-  opacity: 0%;
-  top: 14%;
-  left: -2%;
-  width: 32%;
-  z-index: 3;
-  position: absolute;
+.kittya{
+  top: 25%;
+  left: 7%;
+  width: 15%;
+  z-index: 4;
   transform: rotate(10deg);
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  position: absolute;
+  opacity: 0%;
   cursor: pointer;
 }
 
-.roundkitty:hover{
-  opacity: 100%;
+.kittya:hover{
+  opacity: 50%;
 }
 
 .kitty{
@@ -295,21 +295,19 @@ opacity: 100%;
   cursor: pointer;
 }
 
-.roundti{
-  top: 42%;
-left: 0%;
-width: 38%;
+.tightsa{
+  top: 48%;
+  left: 4%;
+  width: 30%;
   position: absolute;
   transform: rotate(-10deg);
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  opacity: 0% ;
   cursor: pointer;
-  opacity: 0%;
   z-index: 2;
 }
 
-.roundti:hover{
-  opacity: 100%;
+.tightsa:hover{
+  opacity: 50%;
 }
 
 .tights{
@@ -324,21 +322,19 @@ width: 38%;
   z-index: 1;
 }
 
-.roundlady{
+.ladybuga{
   z-index: 8;
-  top: 21%;
-      left: 65%;
-      width: 33%;
-  opacity: 0%;
+  top: 40%;
+  left: 72%;
+  width: 15%;
   position: absolute;
   transform: rotate(17deg);
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  opacity: 0%;
   cursor: pointer;
 }
 
-.roundlady:hover{
-  opacity: 100%;
+.ladybuga:hover{
+opacity: 50%;
 }
 
 .ladybug{
@@ -364,6 +360,21 @@ width: 38%;
   cursor: pointer;
 }
 
+.watermelona{
+  top: 33%;
+  left: 4%;
+  width: 28%;
+  position: absolute;
+  transform: rotate(-5deg);
+  opacity: 0%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.watermelona:hover{
+  opacity: 50%;
+}
+
 .pancakes{
   z-index: 8;
   top: 20%;
@@ -374,6 +385,21 @@ width: 38%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   cursor: pointer;
+}
+
+.pancakesa{
+  z-index: 9;
+  top: 20%;
+  left: 70%;
+  width: 18%;
+  position: absolute;
+  transform: rotate(-10deg);
+  opacity: 0%;
+  cursor: pointer;
+}
+
+.pancakesa:hover{
+  opacity: 50%;
 }
 
 .sketch{
@@ -388,6 +414,21 @@ width: 38%;
   cursor: pointer;
 }
 
+.sketcha{
+  z-index: 8;
+  top: 40%;
+  left: 68%;
+  width: 27%;
+  position: absolute;
+  transform: rotate(17deg);
+  opacity: 0%;
+  cursor: pointer;
+}
+
+.sketcha:hover{
+  opacity: 50%;
+}
+
 .sausage{
   z-index: 7;
   top: 40%;
@@ -398,6 +439,21 @@ width: 38%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   cursor: pointer;
+}
+
+.sausagea{
+  z-index: 8;
+  top: 40%;
+  left: 4%;
+  width: 27%;
+  position: absolute;
+  transform: rotate(7deg);
+  opacity: 0%;
+  cursor: pointer;
+}
+
+.sausagea:hover{
+  opacity: 50%;
 }
 
 .two{
@@ -412,6 +468,21 @@ width: 38%;
   cursor: pointer;
 }
 
+.twoa{
+  z-index: 8;
+  top: 40%;
+  left: 70%;
+  width: 18%;
+  position: absolute;
+  transform: rotate(-20deg);
+  opacity: 0%;
+  cursor: pointer;
+}
+
+.twoa:hover{
+  opacity: 50%;
+}
+
 .pomegrante{
   z-index: 7;
   top: 30%;
@@ -424,7 +495,23 @@ width: 38%;
   cursor: pointer;
 }
 
+.pomegrantea{
+  z-index: 8;
+  top: 30%;
+  left: 3.5%;
+  width: 27%;
+  position: absolute;
+  transform: rotate(17deg);
+  opacity: 0%;
+  cursor: pointer;
+}
+
+.pomegrantea:hover{
+  opacity: 70%;
+}
+
 .umbrella{
+  z-index: 8;
   top: 10%;
   left: 70%;
   width: 26%;
@@ -434,6 +521,22 @@ width: 38%;
   filter: grayscale(100%);
   cursor: pointer;
 }
+
+.umbrellaa{
+  z-index: 9;
+  top: 10%;
+  left: 70%;
+  width: 26%;
+  position: absolute;
+  transform: rotate(8deg);
+  opacity: 0%;
+  cursor: pointer;
+}
+
+.umbrellaa:hover{
+  opacity: 50%;
+}
+
 
 .ticket{
   top: 50%;
@@ -445,6 +548,21 @@ width: 38%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   cursor: pointer;
+}
+
+.ticketa{
+  top: 50%;
+  left: 73%;
+  width: 20%;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(-10deg);
+  opacity: 0%;
+  cursor: pointer;
+}
+
+.ticketa:hover{
+  opacity: 50%;
 }
 
 .video{
