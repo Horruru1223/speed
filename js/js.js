@@ -53,7 +53,7 @@ $(document).ready(function() {
   $('.stroke1').click(function(){
       $('.section4').removeClass("none");
       $('.texttimeline').addClass("none");
-      $('.texttimelinetwo').removeClass("none");
+      $('.texttimelinetwo').toggleClass("none");
       $('.section5').addClass("none");
       $('.section6').addClass("none");
       $('.section7').addClass("none");
@@ -63,7 +63,7 @@ $(document).ready(function() {
 $(document).ready(function() {
    $('.stroke2').click(function(){
       $('.section5').removeClass("none");
-      $('.texttimelinetwo').removeClass("none");
+      $('.texttimelinetwo').toggleClass("none");
       $('.section4').addClass("none");
       $('.section6').addClass("none");
       $('.section7').addClass("none");
@@ -74,7 +74,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('.stroke3').click(function(){
       $('.section6').removeClass("none");
-      $('.texttimelinetwo').removeClass("none");
+      $('.texttimelinetwo').toggleClass("none");
       $('.section5').addClass("none");
       $('.section4').addClass("none");
       $('.section7').addClass("none");
@@ -85,7 +85,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('.stroke4').click(function(){
       $('.section7').removeClass("none");
-      $('.texttimelinetwo').removeClass("none");
+      $('.texttimelinetwo').toggleClass("none");
       $('.section4').addClass("none");
       $('.section5').addClass("none");
       $('.section6').addClass("none");
@@ -201,7 +201,6 @@ $(document).ready(function() {
     $('.textWatermelon').css("display", "block");
     $('.pancakes').css("filter", "grayscale(100%)");
     $(".sketch").css("filter", "grayscale(100%)");
-    $('.fog').addClass("none")
     $('.fire1').css("display", "none");
     $('.fire2').css("display", "none");
     $('.fire3').css("display", "none");
@@ -231,7 +230,12 @@ $(document).ready(function() {
     $('.textPancake').css("display", "block");
     $('.textPancakesNumber').css("display", "block");
     $('.textPancakesmonth').css("display", "block");
-    $('.fog').addClass("none")
+    $('.fire1').css("display", "none");
+    $('.fire2').css("display", "none");
+    $('.fire3').css("display", "none");
+    $('.fire4').css("display", "none");
+    $('.fire5').css("display", "none");
+    $('.fire6').css("display", "none");
     $('.candle').addClass("none")
     $(".sketch").css("filter", "grayscale(100%)");
     $('.textWatermelonNumber').css("display", "none");
