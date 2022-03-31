@@ -350,9 +350,9 @@ opacity: 50%;
 }
 
 .watermelon{
-  top: 33%;
-  left: 4%;
-  width: 28%;
+  top: 28%;
+  left: 5%;
+  width: 26%;
   position: absolute;
   transform: rotate(-5deg);
   -webkit-filter: grayscale(100%);
@@ -361,9 +361,9 @@ opacity: 50%;
 }
 
 .watermelona{
-  top: 33%;
-  left: 4%;
-  width: 28%;
+  top: 28%;
+  left: 5%;
+  width: 26%;
   position: absolute;
   transform: rotate(-5deg);
   opacity: 0%;
@@ -636,58 +636,38 @@ opacity: 50%;
   }
 
 .fire5{
-  top: 44%;
-  left: 70.7%;
+  top: 42%;
+  left: 70.3%;
   width: 2.7% ;
   position: absolute;
-  z-index: 112;
+  z-index: 193;
   display: none;
-}
-
-.fog5{
-  top: 44%;
-  left:69.7%;
-  width: 5.7% ;
-  position: absolute;
-  z-index: 111;
-  opacity: 100%;
   cursor: url("../images/jiga.png"), auto;
+
 }
 
 .candle1{
   width: 10%;
-  z-index: -112;
+  z-index: 112;
   top: 45%;
   left: 67%;
   position: absolute;
   cursor: url("../images/jiga.png"), auto;
 }
 
-
-
-
 .fire1{
-  top: 81%;
-  left: 23.7%;
+  top: 79%;
+  left: 23.9%;
   width: 2% ;
   position: absolute;
-  z-index: 112;
+  z-index: 113;
   display: none;
-}
-
-.fog1{
-  top: 78%;
-  left: 20.7%;
-  width: 10% ;
-  position: absolute;
-  z-index: 110;
-  opacity: 100%;
   cursor: url("../images/jiga.png"), auto;
 }
 
  .candle2{
   width: 10%;
-  z-index: -112;
+  z-index: 112;
   top: 80%;
   left: 20%;
   position: absolute;
@@ -695,92 +675,58 @@ opacity: 50%;
 }
 
 .fire2{
-  top: 18%;
-  left: 7%;
+  top: 9%;
+  left: 6.5%;
   width: 5% ;
   position: absolute;
-  z-index: 112;
+  z-index: 113;
   display: none;
-}
-
-.fog2{
-  top: 18%;
-  left: 5%;
-  width: 10% ;
-  position: absolute;
-  z-index: 111;
-  opacity: 100%;
   cursor: url("../images/jiga.png"), auto;
-
 }
-
 
 .candle3{
   width: 15%;
-  z-index: -112;
+  z-index: 112;
   top: 17%;
   left: 2%;
   position: absolute;
   cursor: url("../images/jiga.png"), auto;
-
   }
 
-
 .fire4{
-  top: 8%;
-  left: 62.4%;
+  top: 6%;
+  left: 62.2%;
   width: 2.2%;
   position: absolute;
-  z-index: 112;
+  z-index: 113;
   display: none;
-}
-
-.fog4{
-  top: 9%;
-  left: 62.4%;
-  width: 2% ;
-  position: absolute;
-  z-index: 111;
-  opacity: 100%;
   cursor: url("../images/jiga.png"), auto;
-
 }
 
 .candle4{
  width: 7%;
- z-index: -112;
+ z-index: 112;
  top: 9%;
  left: 60%;
  position: absolute;
  cursor: url("../images/jiga.png"), auto;
-
 }
 
 .fire3{
-  top: 71%;
-  left:7.8%;
+  top: 72%;
+  left: 5.7%;
   width: 2.3% ;
   position: absolute;
-  z-index: 112;
+  z-index: 200;
   display: none;
-}
-
-.fog3{
-  top: 71%;
-  left:6.8%;
-  width: 4.3% ;
-  position: absolute;
-  z-index: 111;
-  opacity: 100%;
   cursor: url("../images/jiga.png"), auto;
-
 }
 
 .candle5{
  width: 8%;
- z-index: -112;
- top: 70%;
- left: 5%;
+ z-index: 112;
+ top: 76%;
+ left: 3%;
  position: absolute;
  cursor: url("../images/jiga.png"), auto;
 
@@ -793,29 +739,17 @@ opacity: 50%;
  left: 55%;
  position: absolute;
  cursor: url("../images/jiga.png"), auto;
-
 }
 
 .fire6{
-  top: 70%;
-  left: 60%;
+  top: 66%;
+  left: 59%;
   width: 4.6%;
   z-index: 114;
   position: absolute;
   display: none;
-}
-
-.fog6{
-  top: 70%;
-  left: 58%;
-  width: 9%;
-  position: absolute;
-  z-index: 113;
-  opacity: 100%;
   cursor: url("../images/jiga.png"), auto;
-
 }
-
 
 .window{
   width: 100%;
