@@ -1,0 +1,83 @@
+@media (min-width:768px) and (max-width:1024px) {
+  .flower1 {
+    animation: 7s linear 0s normal none infinite running flower1;
+    -webkit-animation: 7s linear 0s normal none infinite running flower1;
+    width: 50%;
+    z-index: -110;
+    left: 0%;
+    top: 22%;
+    position: absolute;
+    display: none;
+  }
+  @keyframes flower1 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes flower1 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .flower2 {
+    animation: 2.7s linear 0s normal none infinite running flower2;
+    -webkit-animation: 2.7s linear 0s normal none infinite running flower2;
+    width: 20%;
+    z-index: -110;
+    left: 64%;
+    top: 0%;
+    position: absolute;
+    display: none;
+  }
+
+  @keyframes flower2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes flower2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .flower3 {
+    animation: 4.8s linear 0s normal none infinite running flower3;
+    -webkit-animation: 4.8s linear 0s normal none infinite running flower3;
+    width: 30%;
+    left: 70%;
+    top: 38%;
+    position: absolute;
+    display: none;
+  }
+  @keyframes flower3 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes flower3 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+}
