@@ -7,7 +7,6 @@
   }
 
 
-
   p{
    font-family: Bitter, 'Bitter';
    color: black;
@@ -467,9 +466,9 @@ transform: rotate(2deg);
 
   .sausage{
     z-index: 7;
-    top: 40%;
-    left: 4%;
-    width: 27%;
+    top: 22%;
+    left: 2%;
+    width: 42%;
     position: absolute;
     transform: rotate(7deg);
     -webkit-filter: grayscale(100%);
@@ -479,9 +478,9 @@ transform: rotate(2deg);
 
   .sausagea{
     z-index: 8;
-    top: 40%;
-    left: 4%;
-    width: 27%;
+    top: 22%;
+    left: 2%;
+    width: 42%;
     position: absolute;
     transform: rotate(7deg);
     opacity: 0%;
@@ -494,9 +493,9 @@ transform: rotate(2deg);
 
   .two{
     z-index: 7;
-    top: 40%;
-    left: 70%;
-    width: 18%;
+    top: 69%;
+    left: 57%;
+    width: 27%;
     position: absolute;
     transform: rotate(-20deg);
     -webkit-filter: grayscale(100%);
@@ -506,9 +505,9 @@ transform: rotate(2deg);
 
   .twoa{
     z-index: 8;
-    top: 40%;
-    left: 70%;
-    width: 18%;
+    top: 69%;
+    left: 57%;
+    width: 27%;
     position: absolute;
     transform: rotate(-20deg);
     opacity: 0%;
@@ -956,7 +955,7 @@ width: 5.3%;
   .textSausageNumber{
     z-index: 110;
     top: 41%;
-    left: 45.3%;
+    left: 43.3%;
     display: none;
     position: absolute;
   }
@@ -971,8 +970,8 @@ width: 5.3%;
 
   .textSausage{
     z-index: 111;
-    top: 67%;
-    left: 38%;
+    top: 62%;
+    left: 23%;
     display: none;
     font-size: 3.4vw;
     position: absolute;
@@ -1218,7 +1217,7 @@ width: 5.3%;
 .two12{
   z-index: 311;
   top: 21%;
-  left: 89%;
+  left: 81%;
   width: 17%;
   position: absolute;
   cursor: pointer;
@@ -1228,7 +1227,7 @@ width: 5.3%;
 .two13{
   z-index: 312;
   top: 38%;
-  left: 76%;
+  left: 57%;
   width: 40%;
   position: absolute;
   cursor: pointer;
@@ -1248,7 +1247,7 @@ width: 5.3%;
 .two15{
   z-index: 314;
   top: 29%;
-  left: 87%;
+  left: 64%;
   width: 37%;
   position: absolute;
   cursor: pointer;
