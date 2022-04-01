@@ -520,9 +520,9 @@ transform: rotate(2deg);
 
   .pomegrante{
     z-index: 7;
-    top: 30%;
-    left: 3.5%;
-    width: 27%;
+    top: 18%;
+    left: -3.5%;
+    width: 57%;
     position: absolute;
     transform: rotate(17deg);
     -webkit-filter: grayscale(100%);
@@ -532,9 +532,9 @@ transform: rotate(2deg);
 
   .pomegrantea{
     z-index: 8;
-    top: 30%;
-    left: 3.5%;
-    width: 27%;
+    top: 18%;
+    left: -3.5%;
+    width: 57%;
     position: absolute;
     transform: rotate(17deg);
     opacity: 0%;
@@ -547,9 +547,9 @@ transform: rotate(2deg);
 
   .umbrella{
     z-index: 8;
-    top: 10%;
-    left: 70%;
-    width: 26%;
+    top: 62%;
+    left: 48%;
+    width: 46%;
     position: absolute;
     transform: rotate(8deg);
     -webkit-filter: grayscale(100%);
@@ -559,9 +559,9 @@ transform: rotate(2deg);
 
   .umbrellaa{
     z-index: 9;
-    top: 10%;
-    left: 70%;
-    width: 26%;
+    top: 62%;
+    left: 48%;
+    width: 46%;
     position: absolute;
     transform: rotate(8deg);
     opacity: 0%;
@@ -574,9 +574,9 @@ transform: rotate(2deg);
 
 
   .ticket{
-    top: 50%;
-    left: 73%;
-    width: 20%;
+    top: 13%;
+    left: 57%;
+    width: 38%;
     position: absolute;
     z-index: 1;
     transform: rotate(-10deg);
@@ -586,9 +586,9 @@ transform: rotate(2deg);
   }
 
   .ticketa{
-    top: 50%;
-    left: 73%;
-    width: 20%;
+    top: 13%;
+    left: 57%;
+    width: 38%;
     position: absolute;
     z-index: 2;
     transform: rotate(-10deg);
@@ -602,6 +602,7 @@ transform: rotate(2deg);
 
   .video{
     width: 100%;
+    position: flex;
   }
 
   .sea{
@@ -615,8 +616,8 @@ transform: rotate(2deg);
   }
 
   .video-bg {
-      width: 1024px;
-      height: 768px;
+      width: 989px;
+      height: 2568px;
       top:0%;
       opacity: 100%;
       z-index: -130;
@@ -1005,7 +1006,7 @@ width: 5.3%;
   .textumbrellaNumber{
     z-index: 110;
     top: 41%;
-    left: 42.5%;
+    left: 36.5%;
     display: none;
     position: absolute;
     align-items: center;
@@ -1022,8 +1023,8 @@ width: 5.3%;
 
   .textumbrella{
     z-index: 111;
-    top: 67%;
-    left: 36.9%;
+    top: 63%;
+  left: 20.9%;
     display: none;
     font-size: 3.4vw;
     position: absolute;
@@ -1033,7 +1034,7 @@ width: 5.3%;
   .textticketNumber{
     z-index: 110;
     top: 41%;
-    left: 46%;
+    left: 43%;
     display: none;
     position: absolute;
     align-items: center;
@@ -1050,8 +1051,8 @@ width: 5.3%;
 
   .textticket{
     z-index: 111;
-    top: 67%;
-    left: 37.3%;
+    top: 63%;
+    left: 22.3%;
     display: none;
     font-size: 3.4vw;
     position: absolute;
@@ -1060,7 +1061,7 @@ width: 5.3%;
   .textpomegranteNumber{
     z-index: 110;
     top: 41%;
-    left: 41.9%;
+    left: 34.9%;
     display: none;
     position: absolute;
     align-items: center;
@@ -1076,8 +1077,8 @@ width: 5.3%;
 
   .textpomegrante{
     z-index: 111;
-    top: 67%;
-    left: 35.4%;
+    top: 61%;
+    left: 17.4%;
     display: none;
     font-size: 3.4vw;
     position: absolute;
