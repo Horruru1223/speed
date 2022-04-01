@@ -625,6 +625,26 @@ transform: rotate(2deg);
       display: none;
   }
 
+  .me{
+    width: 100%;
+    height: 101.9%;
+    z-index: -101;
+    top: 0%;
+    position: absolute;
+    display: none;
+  }
+
+
+  .pom {
+    width: 989px;
+    height: 2568px;
+    top:0%;
+    opacity: 100%;
+    z-index: -130;
+    position: absolute;
+    display: none;
+  }
+
    .school{
      width: 100%;
      position: absolute;
