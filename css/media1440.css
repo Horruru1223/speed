@@ -61,6 +61,26 @@ font-size: 3.3vw;
   display: block;
 }
 
+
+.pom {
+  width: 1440px;
+  height: 900px;
+  top:0%;
+  opacity: 100%;
+  z-index: -130;
+  position: absolute;
+  display: none;
+}
+
+.me{
+  width: 100%;
+  height: 101.9%;
+  z-index: -101;
+  top: 0%;
+  position: absolute;
+  display: none;
+}
+
 .group{
 font-family: Bitter, 'Bitter';
 left: 8%;
