@@ -2,10 +2,10 @@
   .flower1 {
     animation: 7s linear 0s normal none infinite running flower1;
     -webkit-animation: 7s linear 0s normal none infinite running flower1;
-    width: 86%;
-z-index: -110;
-left: 0%;
-top: 6%;
+    width: 91%;
+    z-index: -110;
+    left: -21%;
+    top: 7%;
     position: absolute;
     display: none;
   }
@@ -57,9 +57,9 @@ top: 6%;
   .flower3 {
     animation: 4.8s linear 0s normal none infinite running flower3;
     -webkit-animation: 4.8s linear 0s normal none infinite running flower3;
-    width: 61%;
-    left: 39%;
-    top: 72%;
+    width: 53%;
+    left: 21%;
+    top: 76%;
     position: absolute;
     display: none;
   }
