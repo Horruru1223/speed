@@ -357,59 +357,208 @@ $(document).ready(function() {
    });
   });
 
-    $(document).ready(function() {
-      $('.candle3').click(function(){
-          $('.fire2').css("display", "block");
-       });
+$(document).ready(function() {
+  $('.candle3').click(function(){
+      $('.fire2').css("display", "block");
+    });
+  });
+
+$(document).ready(function() {
+    $('.candle4').click(function(){
+        $('.fire4').css("display", "block");
+      });
+  });
+
+$(document).ready(function() {
+$('.candle6').click(function(){
+      $('.fire6').css("display", "block");
+ });
+  });
+
+$(document).ready(function() {
+  $('.candle5').click(function(){
+      $('.fire3').css("display", "block");
+      });
+    });
+
+$(document).ready(function() {
+    $('.twoa').click(function(){
+        $('.two1').css("display", "block");
+      });
+    });
+
+  $(document).ready(function() {
+      $('.two1').click(function(){
+          $('.two1').css("display", "none");
+        });
       });
 
-      $(document).ready(function() {
-        $('.candle4').click(function(){
-            $('.fire4').css("display", "block");
-         });
+
+$(document).ready(function() {
+    $('.twoa').click(function(){
+        $('.two2').css("display", "block");
+     });
+    });
+
+$(document).ready(function() {
+    $('.two2').click(function(){
+        $('.two2').css("display", "none");
+      });
+    });
+
+$(document).ready(function() {
+    $('.twoa').click(function(){
+        $('.two3').css("display", "block");
+      });
+    });
+
+  $(document).ready(function() {
+       $('.two3').click(function(){
+       $('.two3').css("display", "none");
+        });
+      });
+
+  $(document).ready(function() {
+      $('.twoa').click(function(){
+          $('.two4').css("display", "block");
+        });
+      });
+
+    $(document).ready(function() {
+          $('.two4').click(function(){
+          $('.two4').css("display", "none");
+          });
         });
 
         $(document).ready(function() {
-          $('.candle6').click(function(){
-              $('.fire6').css("display", "block");
-           });
-          });
-
-          $(document).ready(function() {
-            $('.candle5').click(function(){
-                $('.fire3').css("display", "block");
-             });
+            $('.twoa').click(function(){
+                $('.two5').css("display", "block");
+              });
             });
 
-            // window.addEventListener('load', function () {
-            // var O = document.getElementById('obj'),
-            // X = 0,
-            // Y = 0,mouseX=0,mouseY=0;
-            // window.addEventListener('mousemove', function (ev) {
-            //       ev = window.event || ev;
-            // X=ev.pageX;
-            // Y=ev.pageY;
-            // });
-            //
-            //   function move() {
-            //       var p = 'px';
-            //       console.log(X,Y);
-            //       O.style.left = X + p;
-            //       O.style.top = Y +  p;
-            //
-            //       setTimeout(move, 150);
-            //   }
-            //   move();
-            //
-            // });
+          $(document).ready(function() {
+                $('.two5').click(function(){
+                $('.two5').css("display", "none");
+                });
+              });
 
-// $(window).load (function () {
-//   $(document).mousemove(function (e) {
-//     var x = e.pageX;
-//     var y = e.pageY;
-//
-//     $(".light").css("margin-left", x);
-//     $(".light").css("margin-top", x);
-//
-//   });
-// });
+              $(document).ready(function() {
+                  $('.twoa').click(function(){
+                      $('.two6').css("display", "block");
+                    });
+                  });
+
+                $(document).ready(function() {
+                      $('.two6').click(function(){
+                      $('.two6').css("display", "none");
+                      });
+                    });
+
+                    $(document).ready(function() {
+                        $('.twoa').click(function(){
+                            $('.two7').css("display", "block");
+                          });
+                        });
+
+                      $(document).ready(function() {
+                            $('.two7').click(function(){
+                            $('.two7').css("display", "none");
+                            });
+                          });
+
+                          $(document).ready(function() {
+                              $('.twoa').click(function(){
+                                  $('.two8').css("display", "block");
+                                });
+                              });
+
+                            $(document).ready(function() {
+                                  $('.two8').click(function(){
+                                  $('.two8').css("display", "none");
+                                  });
+                                });
+
+
+                                $(document).ready(function() {
+                                    $('.twoa').click(function(){
+                                        $('.two9').css("display", "block");
+                                      });
+                                    });
+
+                                  $(document).ready(function() {
+                                        $('.two9').click(function(){
+                                        $('.two9').css("display", "none");
+                                        });
+                                      });
+
+                                      $(document).ready(function() {
+                                          $('.twoa').click(function(){
+                                              $('.two10').css("display", "block");
+                                            });
+                                          });
+
+                                        $(document).ready(function() {
+                                              $('.two10').click(function(){
+                                              $('.two10').css("display", "none");
+                                              });
+                                            });
+
+                                            $(document).ready(function() {
+                                                $('.twoa').click(function(){
+                                                    $('.two11').css("display", "block");
+                                                  });
+                                                });
+
+                                              $(document).ready(function() {
+                                                    $('.two11').click(function(){
+                                                    $('.two11').css("display", "none");
+                                                    });
+                                                  });
+
+                                                  $(document).ready(function() {
+                                                      $('.twoa').click(function(){
+                                                          $('.two12').css("display", "block");
+                                                        });
+                                                      });
+
+                                                    $(document).ready(function() {
+                                                          $('.two12').click(function(){
+                                                          $('.two12').css("display", "none");
+                                                          });
+                                                        });
+
+                                                        $(document).ready(function() {
+                                                            $('.twoa').click(function(){
+                                                                $('.two13').css("display", "block");
+                                                              });
+                                                            });
+
+                                                          $(document).ready(function() {
+                                                                $('.two13').click(function(){
+                                                                $('.two13').css("display", "none");
+                                                                });
+                                                              });
+
+                                                              $(document).ready(function() {
+                                                                  $('.twoa').click(function(){
+                                                                      $('.two14').css("display", "block");
+                                                                    });
+                                                                  });
+
+                                                                $(document).ready(function() {
+                                                                      $('.two14').click(function(){
+                                                                      $('.two14').css("display", "none");
+                                                                      });
+                                                                    });
+
+                                                                    $(document).ready(function() {
+                                                                        $('.twoa').click(function(){
+                                                                            $('.two15').css("display", "block");
+                                                                          });
+                                                                        });
+
+                                                                      $(document).ready(function() {
+                                                                            $('.two15').click(function(){
+                                                                            $('.two15').css("display", "none");
+                                                                            });
+                                                                          });
