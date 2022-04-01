@@ -6,11 +6,31 @@
     overflow-y: hidden;
   }
 
+
+
+  p{
+   font-family: Bitter, 'Bitter';
+   color: black;
+   font-size: 180%;
+  }
+
+  h3{
+    font-family: Bitter, 'Bitter';
+    color: black;
+    font-size: 2.3vw;
+  }
+
   h2{
     font-family: Bitter, 'Bitter';
     color: black;
-    font-size:  27vw;
+    font-size: 27vw;
   }
+
+h4{
+  font-family: Bitter, 'Bitter';
+  color: black;
+  font-size: 7.3vw;
+}
 
   .video-main {
       position: fixed;
@@ -92,6 +112,12 @@
     }
   }
 
+.smallarrow{
+  width: 100%;
+  position: absolute;
+  top:11.5%;
+  display: block;
+}
 
   .maintextone{
     font-family: Bitter, 'Bitter';
@@ -135,9 +161,9 @@
   }
 
   .stroke1{
-    width: 10.4%;
-        top: 3.2%;
-        left: 5.5%;
+   width: 19.5%;
+   top: 10.2%;
+   left: 5.59%;
    z-index: 4;
    position: absolute;
    cursor: pointer;
@@ -149,27 +175,27 @@
   }
 
    .rectangle1{
-     width: 10.4%;
-         top: 3.2%;
-         left: 5.5%;
+    width: 19.5%;
+    top: 10.2%;
+    left: 5.59%;
     z-index: 3;
     position: absolute;
     cursor: pointer;
   }
 
   .rectangle2{
-    width: 10.4%;
-    top: 3.2%;
-    left: 30.28%;
+    width: 19.5%;
+top: 10.2%;
+left: 29.39%;
     z-index: 3;
     position: absolute;
     cursor: pointer;
   }
 
   .stroke2{
-    width: 10.4%;
-    top: 3.2%;
-    left: 30.28%;
+    width: 19.5%;
+  top: 10.2%;
+  left: 29.39%;
     z-index: 4;
     position: absolute;
     cursor: pointer;
@@ -181,18 +207,18 @@
    }
 
   .rectangle3{
-    width: 10.4%;
-    top: 3.2%;
-    left: 55.1%;
+    width: 19.5%;
+    top: 10.2%;
+    left: 54%;
     z-index: 3;
     position: absolute;
     cursor: pointer;
   }
 
   .stroke3{
-    width: 10.4%;
-    top: 3.2%;
-    left: 55.1%;
+    width: 19.5%;
+    top: 10.2%;
+    left: 54%;
     z-index: 4;
     position: absolute;
     cursor: pointer;
@@ -204,18 +230,18 @@
   }
 
   .rectangle4{
-    width: 10.4%;
-    top: 3.2%;
-    left: 79.9%;
+    width: 19.5%;
+    top: 10.2%;
+    left: 78.2%;
     z-index: 3;
     position: absolute;
     cursor: pointer;
   }
 
   .stroke4{
-    width: 10.4%;
-    top: 3.2%;
-    left: 79.9%;
+    width: 19.5%;
+    top: 10.2%;
+    left: 78.2%;
     z-index: 4;
     position: absolute;
     cursor: pointer;
@@ -227,9 +253,9 @@
   }
 
   .logo{
-    width: 10.53%;
-    top: 92%;
-    left: 87.8%;
+    width: 30.53%;
+  top: 94%;
+  left: 63.8%;
     position: absolute;
   }
 
@@ -360,9 +386,9 @@ transform: rotate(2deg);
   }
 
   .watermelon{
-    top: 34%;
-    left: 5%;
-    width: 26%;
+    top: 21%;
+  left: 0%;
+  width: 42%;
     position: absolute;
     transform: rotate(-5deg);
     -webkit-filter: grayscale(100%);
@@ -371,9 +397,9 @@ transform: rotate(2deg);
   }
 
   .watermelona{
-    top: 34%;
-    left: 5%;
-    width: 26%;
+    top: 21%;
+    left: 0%;
+    width: 42%;
     position: absolute;
     transform: rotate(-5deg);
     opacity: 0%;
@@ -387,9 +413,9 @@ transform: rotate(2deg);
 
   .pancakes{
     z-index: 8;
-    top: 20%;
-    left: 70%;
-    width: 18%;
+    top: 18%;
+    left: 68%;
+    width: 27%;
     position: absolute;
     transform: rotate(-10deg);
     -webkit-filter: grayscale(100%);
@@ -399,9 +425,9 @@ transform: rotate(2deg);
 
   .pancakesa{
     z-index: 9;
-    top: 20%;
-    left: 70%;
-    width: 18%;
+    top: 18%;
+    left: 68%;
+    width: 27%;
     position: absolute;
     transform: rotate(-10deg);
     opacity: 0%;
@@ -414,11 +440,11 @@ transform: rotate(2deg);
 
   .sketch{
     z-index: 7;
-    top: 40%;
-    left: 68%;
-    width: 27%;
+    top: 63%;
+    left: 47%;
+    width: 47%;
     position: absolute;
-    transform: rotate(17deg);
+    transform: rotate(-2deg);
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     cursor: pointer;
@@ -426,11 +452,11 @@ transform: rotate(2deg);
 
   .sketcha{
     z-index: 8;
-    top: 40%;
-    left: 68%;
-    width: 27%;
+    top: 63%;
+    left: 47%;
+    width: 47%;
     position: absolute;
-    transform: rotate(17deg);
+    transform: rotate(-2deg);
     opacity: 0%;
     cursor: pointer;
   }
@@ -776,9 +802,12 @@ transform: rotate(2deg);
   .textKittyNumber{
     z-index: 110;
     top: 41%;
-    left: 42.5%;
+    left: 36.5%;
     display: none;
     position: absolute;
+    font-family: Bitter, 'Bitter';
+    color: black;
+    font-size:  27vw;
   }
 
   .textKittymonth{
@@ -791,17 +820,17 @@ transform: rotate(2deg);
 
   .textKitty{
     z-index: 111;
-    top: 67%;
-    left: 38.4%;
+    top: 61%;
+    left: 25.4%;
     display: none;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
     position: absolute;
   }
 
   .textTightsNumber{
     z-index: 110;
     top: 41%;
-    left: 45%;
+    left: 43%;
     display: none;
     position: absolute;
   }
@@ -809,17 +838,17 @@ transform: rotate(2deg);
   .textTightsmonth{
     z-index: 110;
     top: 97%;
-    left: -48%;
+    left: -54%;
     display: none;
     position: absolute;
   }
 
   .textTights{
     z-index: 111;
-    top: 67%;
-    left: 34.2%;
+    top: 62%;
+    left: 14.4%;
     display: none;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
     position: absolute;
   }
 
@@ -841,10 +870,10 @@ transform: rotate(2deg);
 
   .textLadybug{
     z-index: 111;
-    top: 67%;
-    left: 34.5%;
+    top: 63%;
+    left: 14.5%;
     display: none;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
     position: absolute;
   }
 
@@ -869,7 +898,7 @@ transform: rotate(2deg);
     top: 67%;
     left: 33.9%;
     display: none;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
     position: absolute;
   }
 
@@ -894,7 +923,7 @@ transform: rotate(2deg);
     top: 67%;
     left: 36.8%;
     display: none;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
     position: absolute;
   }
 
@@ -919,7 +948,7 @@ transform: rotate(2deg);
     top: 67%;
     left: 34.7%;
     display: none;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
     position: absolute;
   }
 
@@ -945,7 +974,7 @@ transform: rotate(2deg);
     top: 67%;
     left: 38%;
     display: none;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
     position: absolute;
   }
 
@@ -970,7 +999,7 @@ transform: rotate(2deg);
     top: 67%;
     left: 38%;
     display: none;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
     position: absolute;
   }
 
@@ -997,7 +1026,7 @@ transform: rotate(2deg);
     top: 67%;
     left: 36.9%;
     display: none;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
     position: absolute;
 
   }
@@ -1025,7 +1054,7 @@ transform: rotate(2deg);
     top: 67%;
     left: 37.3%;
     display: none;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
     position: absolute;
   }
 
@@ -1051,7 +1080,7 @@ transform: rotate(2deg);
     top: 67%;
     left: 35.4%;
     display: none;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
     position: absolute;
   }
 
