@@ -105,6 +105,7 @@ $(document).ready(function() {
     $(".ticket").css("filter", "grayscale(100%)");
     $(".pomegrante").css("filter", "grayscale(100%)");
     $(".texttimelinetwo").addClass("none");
+    $('.pom').css("display", "none");
     $(".texttimeline").addClass("none");
     $('.textpomegrante').css("display", "none");
     $('.textpomegranteNumber').css("display", "none");
@@ -128,6 +129,7 @@ $(document).ready(function() {
     $(".texttimelinetwo").addClass("none");
     $(".texttimeline").addClass("none");
     $('.textumbrella').css("display", "none");
+    $('.pom').css("display", "none");
     $('.textumbrellaNumber').css("display", "none");
     $('.textumbrellamonth').css("display", "none");
     $(".pomegrante").css("filter", "grayscale(100%)");
@@ -144,6 +146,7 @@ $(document).ready(function() {
     $('.textpomegrante').css("display", "block");
     $('.textpomegranteNumber').css("display", "block");
     $('.textpomegrantemonth').css("display", "block");
+    $('.pom').css("display", "block");
     $('.video-bg').css("display", "none");
     $('.umbrella').css("filter", "grayscale(100%)");
     $('.ticket').css("filter", "grayscale(100%)");
@@ -270,6 +273,7 @@ $(document).ready(function() {
     $('.textTightsNumber').css("display", "none");
     $('.textTightsmonth').css("display", "none");
     $('.textTights').css("display", "none");
+    $('.me').css("display", "none");
 
   });
 });
@@ -294,6 +298,7 @@ $(document).ready(function() {
     $('.textLadybug').css("display", "none");
     $(".texttimelinetwo").addClass("none");
     $(".texttimeline").addClass("none");
+    $('.me').css("display", "none");
 
   });
 });
@@ -303,6 +308,7 @@ $(document).ready(function() {
     $('.textKittyNumber').css("display", "block");
     $('.textKittymonth').css("display", "block");
     $('.textKitty').css("display", "block");
+    $('.me').css("display", "block");
     $('.kitty').css("filter", "grayscale(0%)");
     $('.flower1').css("display", "none");
     $('.flower2').css("display", "none");
